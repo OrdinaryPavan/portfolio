@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="styles1.0.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">My Portfolio</a>
+        <li><a href="#games"><i class="fas fa-gamepad"></i> Try Games.</a></li>
+        <ul class="nav-links">
+          <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+          <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <header class="hero">
+    <div class="container">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="Profile" class="profile-img">
+        </div>
+        <!--<h2 class="typewriter" data-text="Pavankumar Vishnu Naik">Pavankumar Vishnu Naik</h2>-->
+
+        <h2 class="typewriter" data-text="Pavankumar Vishnu Naik">Pavankumar Vishnu Naik</h2>
+
+<!-- Cloud divs -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+
+        <p>Mobile Application & Web Developer | Problem Solver | Tech Enthusiast</p>
+    </div>
+</header>
+
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-content">
+      <h2>ABOUT ME</h2>
+      <div class="about-text">
+        <p>Hi! I'm a passionate Android and Web Application Developer with a deep enthusiasm for technology and innovation. My journey in tech began with a fascination for how apps and websites connect the world, and over time, this curiosity grew into a thriving career.</p>
+
+        <p>I specialize in building intuitive, user-friendly applications that solve real-world problems. Whether it's crafting sleek, responsive web interfaces or designing robust, feature-rich Android apps, I thrive on creating solutions that are both functional and visually appealing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resume" class="section">
+  <div class="container">
+    <h2>RESUME</h2>
+    <div class="resume-buttons">
+      <!-- Button to view resume in a new tab -->
+      <a href="resume.pdf" class="btn view-btn" target="_blank">View Resume</a>
+
+      <!-- Button to download resume -->
+      <a href="resume.pdf" class="btn download-btn" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section">
+  <h2 class="section-title">SKILLS</h2>
+
+  <div class="skills-container">
+    <!-- Frontend Section -->
+    <div class="skills-category">
+      <h3>Front-End</h3>
+      <div class="skills-grid">
+        <button class="skill">
+          <i class="devicon-flutter-plain colored"></i>
+          Flutter
+        </button>
+        <button class="skill">
+          <i class="devicon-dart-plain colored"></i>
+          Dart
+        </button>
+        <button class="skill">
+          <i class="devicon-HTML-plain colored"></i>
+          HTML
+        </button>
+        <button class="skill">
+          <i class="devicon-CSS-plain colored"></i>
+          CSS
+        </button>
+        <button class="skill">
+          <i class="devicon-java-plain colored"></i>
+          Java
+        </button>
+        <button class="skill">
+          <i class="devicon-cplusplus-plain colored"></i>
+          C++
+        </button>
+        <button class="skill">
+          <i class="devicon-c-plain colored"></i>
+          C
+        </button>
+        <button class="skill">
+          <i class="devicon-csharp-plain colored"></i>
+          C#
+        </button>
+        <button class="skill">
+          <i class="devicon-python-plain colored"></i>
+          Python
+        </button>
+      </div>
+    </div>
+
+    <!-- Backend Section -->
+    <div class="skills-category">
+      <h3>Back-End</h3>
+      <div class="skills-grid">
+        <button class="skill">
+          <i class="devicon-mysql-plain colored"></i>
+          SQL
+        </button>
+        <button class="skill">
+          <i class="devicon-mysql-plain colored"></i>
+          JavaScript
+        </button>
+        <button class="skill">
+          <i class="devicon-JavaScript-plain colored"></i>
+          Node.js
+        </button>
+        <button class="skill">
+          <i class="devicon-Golang-plain colored"></i>
+          Golang (GO)
+        </button>
+        <button class="skill">
+          <i class="devicon-php-plain colored"></i>
+          PHP
+        </button>
+        <button class="skill">
+          <i class="devicon-php-plain colored"></i>
+          NOSQL
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>PROJECTS</h2>
+    <div class="project-grid">
+      <a href="#" class="project-card">
+        <img src="images/lms.webp" alt="Project 1">
+        <h3>LMS Software - C#</h3>
+      </a>
+      <a href="#" class="project-card">
+        <img src="images/uniform.jpg" alt="Project 2">
+        <h3>Old Uniform Reselling Website</h3>
+      </a>
+      <a href="#" class="project-card">
+        <img src="images/crypto.jpg" alt="Project 3">
+        <h3>Cryto Analysis - AIML</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="games" class="games-section">
+  <div class="container">
+    <h2>PLAY SOME GAMES</h2>
+    <div class="games-links">
+      <div class="game">
+        <a href="https://www.chess.com/play" target="_blank" title="Game 1">
+          <i class="fas fa-gamepad"></i>
+          <p>Chess</p>
+        </a>
+      </div>
+      <div class="game">
+        <a href="https://toytheater.com/snakes-and-ladders/" target="_blank" title="Game 2">
+          <i class="fas fa-cogs"></i>
+          <p>Snake & Ladder</p>
+        </a>
+      </div>
+      <div class="game">
+        <a href="https://poki.com/en/g/blumgi-rocket" target="_blank" title="Game 3">
+          <i class="fas fa-rocket"></i>
+          <p>Blumgi Rocket</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>CONTACT ME</h2>
+    <form id="myForm" action="https://api.web3forms.com/submit" method="POST" class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+      </div>
+      <input type="hidden" name="access_key" value="3a25c263-9bb7-40e6-8a41-c8dfda9f20e3">
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<script>
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevents the default form submission behavior
+
+    const form = event.target;
+
+    // Submit the form using Fetch API
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+    })
+      .then(response => {
+        if (response.ok) {
+          alert('Message sent successfully!');
+          form.reset(); // Clears all form fields
+        } else {
+          alert('Failed to send message. Please try again.');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again later.');
+      });
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <footer>
+    <div class="container">
+      <p>Follow me on:</p>
+      <div class="social-icons">
+        <a href="https://github.com/OrdinaryPavan" target="_blank" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pavankumar-vishnu-naik-a978a6319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/pava_n_aik?s=21" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
